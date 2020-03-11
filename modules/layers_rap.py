@@ -468,6 +468,7 @@ class Conv2d(nn.Conv2d, RelProp):
             return C
 
         def f(R, w1, w2, x1, x2):
+            R_nonzero = R.ne(0).type(R.type())
             if w1.shape[2] == 1:
                 xabs = self.X.abs()
                 wabs = self.weight.abs()
