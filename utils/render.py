@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.cm
 import skimage.io
 import skimage.feature
 import skimage.filters
