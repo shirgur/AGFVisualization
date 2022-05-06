@@ -1,5 +1,5 @@
 # AGF-Visualization
-Official code for "Attribution Guided Factorization for Neural Networks Visualization" 
+Official code for "Visualization of Supervised and Self-Supervised Neural Networks via Attribution Guided Factorization" 
 
 Baseline methods are taken from [link](https://github.com/utkuozbulak/pytorch-cnn-visualizations), and [link](https://github.com/idiap/fullgrad-saliency).
  
